@@ -19,3 +19,7 @@ INSERT INTO Users Values
 SELECT * FROM Users;
 
 SELECT * FROM Users WHERE id = 1;
+
+UPDATE Users
+SET email = 'mev@gmail.com'
+WHERE id = 1;
