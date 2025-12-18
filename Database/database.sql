@@ -9,3 +9,9 @@ CREATE TABLE Users (
     password VARCHAR(10) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
+INSERT INTO Users Values
+(1,'Mevini','mevini@gmail.com','i12311'),
+(2,'Nishanthi','nishanthi@gmail.com','n12345');
