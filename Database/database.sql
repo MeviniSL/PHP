@@ -23,3 +23,7 @@ SELECT * FROM Users WHERE id = 1;
 UPDATE Users
 SET email = 'mev@gmail.com'
 WHERE id = 1;
+
+
+DELETE FROM Users
+WHERE id =2;
