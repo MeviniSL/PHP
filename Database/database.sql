@@ -15,3 +15,5 @@ CREATE TABLE Users (
 INSERT INTO Users Values
 (1,'Mevini','mevini@gmail.com','i12311'),
 (2,'Nishanthi','nishanthi@gmail.com','n12345');
+
+SELECT * FROM Users;
