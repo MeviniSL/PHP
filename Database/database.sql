@@ -17,3 +17,5 @@ INSERT INTO Users Values
 (2,'Nishanthi','nishanthi@gmail.com','n12345');
 
 SELECT * FROM Users;
+
+SELECT * FROM Users WHERE id = 1;
